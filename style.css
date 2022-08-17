@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+.container{
+    max-width: 1200px;
+    height: 100%;
+    padding: 2rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+    transition: all 0.4s ease;
+}
+.card h3{
+    margin: 10px 0px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
